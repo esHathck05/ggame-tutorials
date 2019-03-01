@@ -49,10 +49,12 @@ def spaceKey(event):
 
 # Handle the "reverse" key
 def reverseKey(event):
+    pop.play()
     reverse(ball)
 
 # Handle the mouse click
 def mouseClick(event):
+    pew1.play()
     ball.x = event.x
     ball.y = event.y
 
